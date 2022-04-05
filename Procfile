@@ -1,1 +1,1 @@
-web: gunicron 3.2 bloggit.wsgi
+web: gunicorn bloggit.wsgi
