@@ -1,1 +1,1 @@
-web: gunicron codestar.wsgi
+web: gunicron bloggit.wsgi
