@@ -5,7 +5,11 @@
 <div class="container-fluid">
     <div class="row">
 
-        <!-- Blog Entries Column -->
+        <!-- 
+        Blog Entries Column
+        code written by instructions
+        from Code Institute module "I think Therefore I Blog
+        -->
         <div class="col-12 mt-3 left">
             <div class="row">
                 {% for post in post_list %}
@@ -15,7 +19,7 @@
                             <div class="image-container">
                                 {% if "placeholder" in post.featured_image.url %}
                                 <img class="card-img-top"
-                                    src="https://codeinstitute.s3.amazonaws.com/fullstack/blog/default.jpg">
+                                    src="https://res.cloudinary.com/jarviscloud/image/upload/v1649367786/blog%20post%20image/stock-market-setup_vzi0m5.jpg">
                                 {% else %}
                                 <img class="card-img-top" src=" {{ post.featured_image.url }}">
                                 {% endif %}
