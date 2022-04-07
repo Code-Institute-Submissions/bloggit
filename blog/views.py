@@ -1,3 +1,4 @@
+"""Views for the pages to be rendered"""
 from django.shortcuts import render, get_object_or_404, reverse
 from django.views import generic, View
 from django.http import HttpResponseRedirect
@@ -6,6 +7,10 @@ from .forms import CommentForm
 
 
 class PostList(generic.ListView):
+    """
+    Class made for generic post view list that limits the number
+    of posts that can appear on the front page
+    """
     model = Post
     queryset = Post.objects.filter(status=1).order_by("-created_on")
     template_name = "index.html"
@@ -13,7 +18,12 @@ class PostList(generic.ListView):
 
 
 class PostDetail(View):
-
+    """
+    Post detail class that inherits from the view
+    and view the list of post's posted by user
+    Function has been written by instructions from
+    Code Institute module I think therefore i blog
+    """
     def get(self, request, slug, *args, **kwargs):
         queryset = Post.objects.filter(status=1)
         post = get_object_or_404(queryset, slug=slug)
@@ -35,7 +45,10 @@ class PostDetail(View):
         )
 
     def post(self, request, slug, *args, **kwargs):
-
+        """
+        Function has been written by instructions from
+        Code Institute module I think therefore i blog
+        """
         queryset = Post.objects.filter(status=1)
         post = get_object_or_404(queryset, slug=slug)
         comments = post.comments.filter(approved=True).order_by("-created_on")
@@ -68,6 +81,10 @@ class PostDetail(View):
 
 
 class PostLike(View):
+    """
+    Function has been written by instructions from
+    Code Institute module I think therefore i blog
+    """
 
     def post(self, request, slug):
         post = get_object_or_404(Post, slug=slug)
