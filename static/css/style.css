@@ -68,6 +68,7 @@ body {
     width: 100%;
 }
 
+/* Style for blog post */
 .masthead-text {
     background-color: #361134;
     color: white;
@@ -113,6 +114,7 @@ body {
     color: lightgray;
 }
 
+/* Style for signup button */
 .btn-signup {
     background-color: #B0228C;
     color: #fff;
@@ -135,6 +137,7 @@ body {
     text-decoration: underline;
 }
 
+/* Style for Like button */
 .btn-like {
     color: #f33f03;
     border: none;
