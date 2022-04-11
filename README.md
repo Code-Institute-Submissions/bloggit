@@ -276,7 +276,7 @@ All files that passed pep8 tests without errors.
 
 ![apps.py-testing.png](/images/apps.py-testing.png)
 
-![urls.py-testing.png](//images/urls.py-testing.png)
+![urls.py-testing.png](/images/urls.py-testing.png)
 
 ![views.py-testing.png](/images/views.py-testing.png)
 
