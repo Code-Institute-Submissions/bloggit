@@ -363,23 +363,20 @@ These are the steps:
 ## Credits
 
 **Media**
->[Pixabay](https://pixabay.com/)
 * 1st test post image: https://pixabay.com/images/id-6531146/
 * 2nd blog post image: https://pixabay.com/images/id-3052119/
 * 3rd blog post image: https://www.gettyimages.ie/
 * 4th blog post image: https://refreshmiami.com/lets-grab-the-future-of-finance-by-the-crypto-horns/
-* About Bitcoin: https://www.pexels.com/photo/gold-round-coin-on-black-surface-5980743/
-* How it Works: https://www.pexels.com/photo/laptop-internet-connection-technology-6770775/
 * The site fonts were taken from [GoogleFonts](https://fonts.google.com/)
 * Icons were sourced from [FontAwesome](https://fontawesome.com/)
 * Website colors were sourced from [Coolors](https://coolors.co/)
 
 
-**Content**
-> The text for website was taken from 2 sources:
-* [Bitcoin.com](https://www.bitcoin.com/get-started/a-quick-introduction-to-bitcoin/)
-* [Bitcoin.org](https://bitcoin.org/en/how-it-works)
-* Bitcoin unicode was taken from [Unicode-table](https://unicode-table.com/en/)
+**Blog post Content**
+* MICHAEL SAYLOR ON WHY THE FUTURE IS BRIGHT FOR BITCOIN blog content taken from: https://bitcoinmagazine.com/industry-events/the-future-is-bright-for-bitcoin
+* WHAT IS BLOCKCHAIN content taken from: https://bitcoinmagazine.com/guides/what-is-blockchain
+* WE ARE ALL SATOSHI NAKAMOTO content taken from: https://bitcoinmagazine.com/culture/we-are-all-satoshi-nakamoto
+
 
 **Code**
 * [MDN](https://developer.mozilla.org/en-US/), [W3SCHOOLS](https://www.w3schools.com/), [STACKOVERFLOW](https://stackoverflow.com/) were used on daily basis, to better understand the code.
