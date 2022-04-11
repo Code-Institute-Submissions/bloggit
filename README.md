@@ -83,15 +83,21 @@ All features worked as expected.
 
 **Wireframes**
 
-* [Balsamiq](https://balsamiq.com/) has been used to showcase the concept of the website.
+* [Balsamiq](https://balsamiq.com/) has been used to showcase the concept of the website application.
+
 >**Desktop version**
-![wire1.JPG](/images-readme/wire1.JPG)
-![wire2.JPG](/images-readme/wire2.JPG)
-![wire3.jpg](/images-readme/wire3.JPG)
->**Mobile and Tablet version**
-![wiremobile1.JPG](/images-readme/wiremobile1.JPG)
-![wiremobile2.JPG](/images-readme/wiremobile2.JPG)
-![wiremobile3.JPG](/images-readme/wiremobile3.JPG)
+
+![main-page-desktop.png](/images/main-page-desktop.png)
+
+---
+
+![blog-post-page-desktop.png](/images/blog-post-page-desktop.png)
+
+---
+
+>**Mobile version**
+
+![mobile-blog-version.png](/images/mobile-blog-version.png)
 
 ---
 
