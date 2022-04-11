@@ -172,13 +172,15 @@ All features worked as expected.
 * [Github](https://github.com/) Hosting repository code.
 
 ---
-## Testing
+## Testing and unresolved problems
 
 * I completed testing of the website application in multiple browsers: Brave, Chrome, Firefox and also used DevTools to confirm that the project is responsive and functional.
 * I tested the website on different devices and operating systems Laptop (Windows), Tablet, (Android), and Galaxy Note 20 Ultra 5G (Android). The website worked perfectly on all devices.
 * I confirmed that navigation, about section, and contact are all readable, and easy to understand.
 * I can confirm that the login, SignIn, SignUp and SignOut works correctly but CSS Styling was not successfully implemented.
 * The Website was tested on [ResponsiveDesign](http://ami.responsivedesign.is/#) but it was showing that website has X-Frame options set to same Origin or Deny, that was the reason why i was not showed with result of page responsive information.
+* CSS Design was not applied properly on Login page
+* Admin page lost visual design, reason has not been discovered yet.
 
 **Code Validation**
 
@@ -377,13 +379,24 @@ These are the steps:
 * WHAT IS BLOCKCHAIN content taken from: https://bitcoinmagazine.com/guides/what-is-blockchain
 * WE ARE ALL SATOSHI NAKAMOTO content taken from: https://bitcoinmagazine.com/culture/we-are-all-satoshi-nakamoto
 
+**Potential features to add**
+* Edit/delete post
+* Number of comments method
+* Social app features for single SignIn
+* Number of likes
+
+---
+
+# Credits
 
 **Code**
-* [MDN](https://developer.mozilla.org/en-US/), [W3SCHOOLS](https://www.w3schools.com/), [STACKOVERFLOW](https://stackoverflow.com/) were used on daily basis, to better understand the code.
+* [Code Institute](https://codeinstitute.net/ie/), [MDN](https://developer.mozilla.org/en-US/), [W3SCHOOLS](https://www.w3schools.com/), [STACKOVERFLOW](https://stackoverflow.com/) were used on daily basis, to better understand the code.
+
+* For me this was by far most challenging Project and new coding experience, this project was complex learning process and with enormous help of all mentioned resources above and exceptional help from Code Institute module "I think therefore i Blog" i was able to better understand concepts and write code.
 
 * This readme document was based on research on several readme documents such as the Code Institute's readme [Sample](https://github.com/Code-Institute-Solutions/SampleREADME).
 
-* I used the lessons learned during the Code Institute "Love Running" project to help with the structure of contact form.
+* I used the lessons learned from module "I think therefore i blog" project from Code Institute to help with the project.
 
 **Acknowledgements**
 
